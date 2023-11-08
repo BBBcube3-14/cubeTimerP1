@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src = "timer.js"></script>
+        <link rel="stylesheet" type = "text/css" href = "styles.css">
+    </head>
+
+    <body>
+        <h1> Welcome to Timer </h1>
+        <div class="textfield">
+            <label for="name">Puzzle Name:</label>
+            <input type="text" id = "name" name="name"><br>
+        </div>
+        <div class="timer">
+            <span class="minute">00</span>:<span class="second">00</span>.<span class="millisecond">000</span>
+        </div>
+
+        <!--div class="control">
+            <button onClick="timer.start(50)">Start</button> 
+            <button onClick="timer.stop()">Stop</button> 
+            <button onClick="timer.reset(0)">Reset</button> 
+            <button onClick="timer.mode(1)">Count up</button> 
+            <button onClick="timer.mode(0)">Count down</button>
+        </div -->
+
+        <p>Controls:</p>
+        <ul>
+            <li>Spacebar: start/stop timer</li>
+            <li>R: Reset</li>
+            <li>I: Inspection</li>
+        </ul>
+
+
+    </body> 
+</html>
